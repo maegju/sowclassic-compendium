@@ -107,8 +107,9 @@ def create_github_discussion(leaderboard):
     """Posts the leaderboard as a GitHub Discussion using the GitHub App."""
     GITHUB_TOKEN = get_installation_token()  # Get the app authentication token
 
-    # Get the current week number
+    # Get the current week number and year
     current_week = datetime.utcnow().strftime("%V")  # ISO week number
+    current_year = datetime.utcnow().strftime("%Y")  # Year
 
     # Create a Markdown Table with 4 Columns
     table_header = "| 🏆 | Name | Power | Created |\n|----|------|--------|---------|\n"
@@ -128,7 +129,7 @@ def create_github_discussion(leaderboard):
     variables = {
         "repoId": get_repository_id(),
         "categoryId": DISCUSSION_CATEGORY_ID,
-        "title": f"🏆 Weekly Top Players - Week {current_week}",
+        "title": f"🏆 Weekly Top Players - Week {current_week} ({current_year})",
         "body": markdown_table
     }
 
