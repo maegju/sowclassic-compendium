@@ -40,7 +40,10 @@ def save_leaderboard_to_json(week, leaderboard):
 
     # Store only the first instance for the current week
     if week not in leaderboard_log:
-        leaderboard_log[week] = {player: {"rank": int(rank), "power": int(power.replace(",", ""))} for rank, player, power, _, _ in leaderboard}
+        leaderboard_log[week] = {
+            player: {"rank": int(rank), "power": int(power.replace(",", ""))}
+            for rank, player, power, created in leaderboard
+        }
 
     # Save only the last 3 weeks
     with open(LEADERBOARD_LOG_PATH, "w") as f:
