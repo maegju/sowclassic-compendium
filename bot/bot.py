@@ -77,15 +77,19 @@ def scrape_leaderboard():
         leaderboard_table = driver.find_elements(By.TAG_NAME, "table")[0]  # First table
         rows = leaderboard_table.find_elements(By.TAG_NAME, "tr")[1:]  # Skip header row
 
-        leaderboard = [
-            (
-                row.find_elements(By.TAG_NAME, "td")[0].text.strip(),  # Rank
-                row.find_elements(By.TAG_NAME, "td")[1].text.strip(),  # Player
-                row.find_elements(By.TAG_NAME, "td")[2].text.strip(),  # Power
-                convert_relative_to_absolute(row.find_elements(By.TAG_NAME, "td")[3].text.strip())  # Member Since (absolute date)
-            )
-            for row in rows if len(row.find_elements(By.TAG_NAME, "td")) >= 4
-        ]
+        rank_mapping = {"🥇": "1", "🥈": "2", "🥉": "3"}  # Convert emojis to numbers
+
+        leaderboard = []
+        for row in rows:
+            columns = row.find_elements(By.TAG_NAME, "td")
+            if len(columns) >= 4:
+                rank = columns[0].text.strip()
+                rank = rank_mapping.get(rank, rank)  # Convert emoji rank if applicable
+                player = columns[1].text.strip()
+                power = columns[2].text.strip()
+                created = convert_relative_to_absolute(columns[3].text.strip())
+
+                leaderboard.append((rank, player, power, created))
 
         driver.quit()
         return leaderboard
