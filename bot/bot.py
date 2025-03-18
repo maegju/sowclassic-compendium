@@ -183,29 +183,43 @@ def create_github_discussion(leaderboard):
     """Posts the leaderboard as a GitHub Discussion using the GitHub App."""
     GITHUB_TOKEN = get_installation_token()  # Get the app authentication token
 
-    # Get the current week number and year
-    current_week = datetime.utcnow().strftime("%V")  # ISO week number
-    current_year = datetime.utcnow().strftime("%Y")  # Year
+    # Get current date details
+    current_date = datetime.utcnow()
+    current_week = int(current_date.strftime("%V"))  # ISO week number
+    current_year = int(current_date.strftime("%Y"))  # Year
+
+    # Compute the previous week (handling year transitions)
+    if current_week == 1:  # If it's the first week of the year
+        previous_year = current_year - 1
+        previous_week = 52  # Assume 52 (some years have W53, but this works for most cases)
+    else:
+        previous_year = current_year
+        previous_week = current_week - 1
+
+    previous_week_key = f"{previous_year}-W{previous_week:02d}"  # Format as "YYYY-WXX"
+    current_week_key = f"{current_year}-W{current_week:02d}"  # Format as "YYYY-WXX"
 
     leaderboard_log = load_leaderboard_log()
-    old_leaderboard = leaderboard_log.get(f"{current_year}-W{current_week}", {})
+    old_leaderboard = leaderboard_log.get(previous_week_key, {})  # Compare against previous week
 
+    print(f"🔍 Comparing against previous week: {previous_week_key}")
     updated_leaderboard = compute_leaderboard_changes(leaderboard, old_leaderboard)
 
-    save_leaderboard_to_json(f"{current_year}-W{current_week}", leaderboard)
+    # Save the new leaderboard for the current week
+    save_leaderboard_to_json(current_week_key, leaderboard)
 
     # 📝 Preface and Explanation Section
     preface = f"""
 ### 🏆 Weekly Leaderboard - Week {current_week} ({current_year})
 **Weekly leaderboard created from [sowclassic.com/toplists](https://sowclassic.com/toplists).**  
-This leaderboard tracks player rankings and power changes from the first recorded instance of the week.
+This leaderboard tracks player rankings and power changes from the first recorded instance of the previous week.
 
 ---
 """
 
     # 📝 Create Markdown Table
     table_header = "| 🏆 | Name | Power | Rank Change | Power Change | Member Since |\n|----|------|--------|-------------|-------------|-------------|\n"
-    table_rows = "\n".join([f"| {rank} | **{player}** | {power} | {rank_change} | {power_change} | {created} |" for rank, player, power, rank_change, power_change, created in updated_leaderboard])
+    table_rows = "\n".join([f"| {rank} | {player} | {power} | {rank_change} | {power_change} | {created} |" for rank, player, power, rank_change, power_change, created in updated_leaderboard])
     discussion_body = f"{preface}\n{table_header}{table_rows}"
 
     query = """
