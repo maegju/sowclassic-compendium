@@ -22,35 +22,43 @@ LEADERBOARD_LOG_PATH = "bot/leaderboard_log.json"
 
 # 📥 Load Leaderboard Log (Keeps Only Last 3 Weeks)
 def load_leaderboard_log():
-    """Loads the leaderboard log and retains only the last 3 weeks."""
+    """Loads the leaderboard log and retains only the last 3 weeks in correct order."""
     if not os.path.exists(LEADERBOARD_LOG_PATH):
         return {}
 
     with open(LEADERBOARD_LOG_PATH, "r") as f:
         leaderboard_log = json.load(f)
 
-    # Keep only the last 3 weeks
-    weeks_to_keep = sorted(leaderboard_log.keys(), reverse=True)[:3]
-    return {week: leaderboard_log[week] for week in weeks_to_keep}
+    # Convert to a list of (week, data) pairs and keep the last 3 weeks
+    leaderboard_items = list(leaderboard_log.items())[-3:]  # Keep last 3 in original order
+
+    return dict(leaderboard_items)
 
 # 📤 Save Leaderboard Log
 def save_leaderboard_to_json(week, leaderboard):
-    """Saves the first leaderboard of the week while keeping only the last 3 weeks."""
+    """Saves the first leaderboard of the week while keeping only the last 3 weeks, appending new weeks at the end."""
     leaderboard_log = load_leaderboard_log()
 
-    # Store only the first instance for the current week
+    # Append new week if not already recorded
     if week not in leaderboard_log:
         leaderboard_log[week] = {
             player: {"rank": int(rank), "power": int(power.replace(",", ""))}
             for rank, player, power, created in leaderboard
         }
+        print(f"✅ Week {week} appended to leaderboard log.")
 
-    # Save only the last 3 weeks
+    # Convert to a list of tuples (week, data) to keep chronological order
+    leaderboard_items = list(leaderboard_log.items())
+
+    # Keep only the last 3 weeks, preserving order
+    leaderboard_items = leaderboard_items[-3:]  
+
+    # Convert back to dictionary to save
+    leaderboard_log = dict(leaderboard_items)
+
+    # Save to JSON file
     with open(LEADERBOARD_LOG_PATH, "w") as f:
         json.dump(leaderboard_log, f, indent=4)
-
-    # Commit changes to GitHub so the file persists
-    commit_leaderboard_log()
 
 # 📌 Commit JSON Log to GitHub
 def commit_leaderboard_log():
