@@ -60,6 +60,9 @@ def save_leaderboard_to_json(week, leaderboard):
     with open(LEADERBOARD_LOG_PATH, "w") as f:
         json.dump(leaderboard_log, f, indent=4)
 
+    # Commit changes to GitHub so the file persists
+    commit_leaderboard_log()
+
 # 📌 Commit JSON Log to GitHub
 def commit_leaderboard_log():
     """Commits and pushes leaderboard_log.json back to the GitHub repository."""
