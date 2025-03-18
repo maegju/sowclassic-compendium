@@ -8,9 +8,13 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allows committing changes
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Grants write access
 
       - name: Set Up Python
         uses: actions/setup-python@v4

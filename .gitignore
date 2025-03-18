@@ -1,0 +1,9 @@
+# .gitignore
+
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore .env file containing sensitive data
+.env
