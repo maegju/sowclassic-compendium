@@ -11,9 +11,12 @@ Check out the **[SoW Classic Handbook](./handbook/)** for rules, strategies, and
 ---
 
 ## **📌 Features**
-- **Scrapes the Top Players** weekly using Selenium.  
+- **Scrapes the Top Players** weekly using Selenium.
+- **Tracks Rank & Power Changes** by comparing against the previous week.
 - **Converts relative timestamps** (e.g., "20 days ago") to absolute dates.  
-- **Posts to [GitHub Discussions](https://github.com/maegju/sowclassic-compendium/discussions).**  
+- **Posts to [GitHub Discussions](https://github.com/maegju/sowclassic-compendium/discussions).**
+- **Stores leaderboard history in JSON** (`leaderboard_log.json`) for accurate comparisons.
+- **Ensures correct week tracking**
 - **Runs automatically every Monday at 12:00 UTC via GitHub Actions.**  
 - **Can also be triggered manually via GitHub Actions UI.**  
 
