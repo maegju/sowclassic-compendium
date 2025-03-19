@@ -198,6 +198,7 @@ def create_github_discussion(leaderboard):
     current_date = datetime.utcnow()
     current_week = int(current_date.strftime("%V"))  # ISO week number
     current_year = int(current_date.strftime("%Y"))  # Year
+    formatted_datetime = current_date.strftime("%Y%m%d%H%M")  # Format: YYYYMMDDHHMM
 
     # Compute the previous week (handling year transitions)
     if current_week == 1:  # If it's the first week of the year
@@ -246,7 +247,7 @@ This leaderboard tracks player rankings and power changes from the first recorde
     variables = {
         "repoId": get_repository_id(),
         "categoryId": DISCUSSION_CATEGORY_ID,
-        "title": f"🏆 Weekly Top Players - Week {current_week} ({current_year})",
+        "title": f"🏆 Weekly Top Players - Week {current_week} ({formatted_datetime})",
         "body": discussion_body
     }
 
