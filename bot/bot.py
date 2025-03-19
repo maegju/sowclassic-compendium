@@ -222,7 +222,6 @@ def create_github_discussion(leaderboard):
 
     # 📝 Preface and Explanation Section
     preface = f"""
-### 🏆 Weekly Leaderboard - Week {current_week} ({current_year})
 **Weekly leaderboard created from [sowclassic.com/toplists](https://sowclassic.com/toplists).**  
 This leaderboard tracks player rankings and power changes from the first recorded instance of the previous week.
 
