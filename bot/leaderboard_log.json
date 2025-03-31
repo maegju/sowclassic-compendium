@@ -1,606 +1,4 @@
 {
-    "2025-W11": {
-        "olin.legros0": {
-            "rank": 1,
-            "power": 11201796
-        },
-        "elizbeth.gerhold1": {
-            "rank": 2,
-            "power": 6718311
-        },
-        "nicky.schowalter2": {
-            "rank": 3,
-            "power": 3980343
-        },
-        "gina3": {
-            "rank": 4,
-            "power": 3223794
-        },
-        "SinRopa": {
-            "rank": 5,
-            "power": 2295842
-        },
-        "kelli4": {
-            "rank": 6,
-            "power": 2160927
-        },
-        "mana5": {
-            "rank": 7,
-            "power": 2043567
-        },
-        "edmund6": {
-            "rank": 8,
-            "power": 1835496
-        },
-        "arlean.dare7": {
-            "rank": 9,
-            "power": 1656165
-        },
-        "baikho": {
-            "rank": 10,
-            "power": 1398442
-        },
-        "shawnna11": {
-            "rank": 11,
-            "power": 1215153
-        },
-        "florene_williamson8": {
-            "rank": 12,
-            "power": 1128753
-        },
-        "abbey.dibbert14": {
-            "rank": 13,
-            "power": 880626
-        },
-        "danilo12": {
-            "rank": 14,
-            "power": 880518
-        },
-        "mekill": {
-            "rank": 15,
-            "power": 872741
-        },
-        "brock.lehner13": {
-            "rank": 16,
-            "power": 867507
-        },
-        "joan_mueller16": {
-            "rank": 17,
-            "power": 789276
-        },
-        "cecil18": {
-            "rank": 18,
-            "power": 743178
-        },
-        "lonia_jakubowski17": {
-            "rank": 19,
-            "power": 723519
-        },
-        "dwayne22": {
-            "rank": 20,
-            "power": 624783
-        },
-        "moses.wyman20": {
-            "rank": 21,
-            "power": 622902
-        },
-        "ironblood": {
-            "rank": 22,
-            "power": 621547
-        },
-        "winnie.rempel19": {
-            "rank": 23,
-            "power": 609618
-        },
-        "corey21": {
-            "rank": 24,
-            "power": 548829
-        },
-        "stefan_hills25": {
-            "rank": 25,
-            "power": 534381
-        },
-        "monica_denesik29": {
-            "rank": 26,
-            "power": 518649
-        },
-        "omer26": {
-            "rank": 27,
-            "power": 516051
-        },
-        "harrison10": {
-            "rank": 28,
-            "power": 502323
-        },
-        "romeo9": {
-            "rank": 29,
-            "power": 474630
-        },
-        "jeramy_brown30": {
-            "rank": 30,
-            "power": 449154
-        },
-        "dallas_sanford33": {
-            "rank": 31,
-            "power": 438342
-        },
-        "kia.howe24": {
-            "rank": 32,
-            "power": 428871
-        },
-        "reba_shields15": {
-            "rank": 33,
-            "power": 409485
-        },
-        "serina_bode31": {
-            "rank": 34,
-            "power": 394083
-        },
-        "greg35": {
-            "rank": 35,
-            "power": 391581
-        },
-        "stewart38": {
-            "rank": 36,
-            "power": 359928
-        },
-        "stephen27": {
-            "rank": 37,
-            "power": 357489
-        },
-        "manda40": {
-            "rank": 38,
-            "power": 329826
-        },
-        "ligia32": {
-            "rank": 39,
-            "power": 328401
-        },
-        "wallace39": {
-            "rank": 40,
-            "power": 310224
-        },
-        "lanny_mante36": {
-            "rank": 41,
-            "power": 309915
-        },
-        "jimmie.ritchie43": {
-            "rank": 42,
-            "power": 307650
-        },
-        "elenore_mante41": {
-            "rank": 43,
-            "power": 295374
-        },
-        "corazon_mosciski44": {
-            "rank": 44,
-            "power": 291219
-        },
-        "alexis_homenick47": {
-            "rank": 45,
-            "power": 277665
-        },
-        "florence_hand51": {
-            "rank": 46,
-            "power": 269709
-        },
-        "loise.powlowski": {
-            "rank": 47,
-            "power": 255735
-        },
-        "raphael46": {
-            "rank": 48,
-            "power": 253476
-        },
-        "nsakins": {
-            "rank": 49,
-            "power": 245650
-        },
-        "dominick48": {
-            "rank": 50,
-            "power": 239949
-        },
-        "WreakingHavoc": {
-            "rank": 51,
-            "power": 238435
-        },
-        "austin52": {
-            "rank": 52,
-            "power": 235293
-        },
-        "clara56": {
-            "rank": 53,
-            "power": 235179
-        },
-        "eleonor57": {
-            "rank": 54,
-            "power": 230571
-        },
-        "nick53": {
-            "rank": 55,
-            "power": 227184
-        },
-        "classie67": {
-            "rank": 56,
-            "power": 217368
-        },
-        "erline45": {
-            "rank": 57,
-            "power": 214200
-        },
-        "malena.shields23": {
-            "rank": 58,
-            "power": 211809
-        },
-        "liz_oconner28": {
-            "rank": 59,
-            "power": 211026
-        },
-        "betsey.steuber50": {
-            "rank": 60,
-            "power": 208263
-        },
-        "bernie64": {
-            "rank": 61,
-            "power": 202875
-        },
-        "hyman61": {
-            "rank": 62,
-            "power": 199095
-        },
-        "jeanene59": {
-            "rank": 63,
-            "power": 195339
-        },
-        "crysta55": {
-            "rank": 64,
-            "power": 194640
-        },
-        "margret.yundt63": {
-            "rank": 65,
-            "power": 194001
-        },
-        "lynell68": {
-            "rank": 66,
-            "power": 190875
-        },
-        "mike79": {
-            "rank": 67,
-            "power": 190788
-        },
-        "magan.witting73": {
-            "rank": 68,
-            "power": 186819
-        },
-        "meridith71": {
-            "rank": 69,
-            "power": 183645
-        },
-        "drew.rempel65": {
-            "rank": 70,
-            "power": 183333
-        },
-        "earlean80": {
-            "rank": 71,
-            "power": 183060
-        },
-        "lizzette66": {
-            "rank": 72,
-            "power": 182910
-        },
-        "nando_ernser82": {
-            "rank": 73,
-            "power": 177321
-        },
-        "asa60": {
-            "rank": 74,
-            "power": 173457
-        },
-        "Severance": {
-            "rank": 75,
-            "power": 164113
-        },
-        "robin.bauch88": {
-            "rank": 76,
-            "power": 160656
-        },
-        "marline89": {
-            "rank": 77,
-            "power": 158937
-        },
-        "dona75": {
-            "rank": 78,
-            "power": 155892
-        },
-        "hung_corwin37": {
-            "rank": 79,
-            "power": 150579
-        },
-        "stacy_trantow92": {
-            "rank": 80,
-            "power": 149409
-        },
-        "anita.kautzer76": {
-            "rank": 81,
-            "power": 149088
-        },
-        "glenn.berge91": {
-            "rank": 82,
-            "power": 147114
-        },
-        "antonina_hane72": {
-            "rank": 83,
-            "power": 145032
-        },
-        "dalton87": {
-            "rank": 84,
-            "power": 142311
-        },
-        "milton.mosciski70": {
-            "rank": 85,
-            "power": 136554
-        },
-        "samuel34": {
-            "rank": 86,
-            "power": 136485
-        },
-        "van_schiller84": {
-            "rank": 87,
-            "power": 135465
-        },
-        "lorine90": {
-            "rank": 88,
-            "power": 132150
-        },
-        "wai_bechtelar85": {
-            "rank": 89,
-            "power": 130305
-        },
-        "emmanuel.walker95": {
-            "rank": 90,
-            "power": 129903
-        },
-        "eustolia.torphy77": {
-            "rank": 91,
-            "power": 129012
-        },
-        "cory.torphy101": {
-            "rank": 92,
-            "power": 127446
-        },
-        "Cri": {
-            "rank": 93,
-            "power": 126536
-        },
-        "dick_beahan96": {
-            "rank": 94,
-            "power": 124989
-        },
-        "donald109": {
-            "rank": 95,
-            "power": 124107
-        },
-        "geoffrey114": {
-            "rank": 96,
-            "power": 123384
-        },
-        "eli81": {
-            "rank": 97,
-            "power": 122349
-        },
-        "jerald.kutch112": {
-            "rank": 98,
-            "power": 119553
-        },
-        "cassandra99": {
-            "rank": 99,
-            "power": 118635
-        },
-        "brandi_barton103": {
-            "rank": 100,
-            "power": 118044
-        },
-        "nelson.kemmer108": {
-            "rank": 101,
-            "power": 116583
-        },
-        "javier_jaskolski100": {
-            "rank": 102,
-            "power": 114918
-        },
-        "waylon102": {
-            "rank": 103,
-            "power": 114900
-        },
-        "cristopher.lakin118": {
-            "rank": 104,
-            "power": 114342
-        },
-        "don_mraz104": {
-            "rank": 105,
-            "power": 112938
-        },
-        "lloyd121": {
-            "rank": 106,
-            "power": 112083
-        },
-        "alayna122": {
-            "rank": 107,
-            "power": 111852
-        },
-        "dannie119": {
-            "rank": 108,
-            "power": 109887
-        },
-        "molly106": {
-            "rank": 109,
-            "power": 109707
-        },
-        "rozella.brakus111": {
-            "rank": 110,
-            "power": 107619
-        },
-        "natalie117": {
-            "rank": 111,
-            "power": 107406
-        },
-        "hobert115": {
-            "rank": 112,
-            "power": 105738
-        },
-        "doug54": {
-            "rank": 113,
-            "power": 105426
-        },
-        "margie_terry110": {
-            "rank": 114,
-            "power": 104388
-        },
-        "jasmine127": {
-            "rank": 115,
-            "power": 103377
-        },
-        "jessie125": {
-            "rank": 116,
-            "power": 102702
-        },
-        "von137": {
-            "rank": 117,
-            "power": 102285
-        },
-        "arron146": {
-            "rank": 118,
-            "power": 101421
-        },
-        "lynne97": {
-            "rank": 119,
-            "power": 99744
-        },
-        "jamey.klein49": {
-            "rank": 120,
-            "power": 99540
-        },
-        "bradly142": {
-            "rank": 121,
-            "power": 96819
-        },
-        "lynn129": {
-            "rank": 122,
-            "power": 96135
-        },
-        "grant_beahan123": {
-            "rank": 123,
-            "power": 95430
-        },
-        "consuela107": {
-            "rank": 124,
-            "power": 95184
-        },
-        "raelene128": {
-            "rank": 125,
-            "power": 94662
-        },
-        "sharolyn.haag132": {
-            "rank": 126,
-            "power": 93354
-        },
-        "romaine126": {
-            "rank": 127,
-            "power": 93222
-        },
-        "maragret.huel120": {
-            "rank": 128,
-            "power": 92889
-        },
-        "sunshine116": {
-            "rank": 129,
-            "power": 92085
-        },
-        "simon_donnelly136": {
-            "rank": 130,
-            "power": 91509
-        },
-        "blaine.torphy148": {
-            "rank": 131,
-            "power": 88398
-        },
-        "january140": {
-            "rank": 132,
-            "power": 87552
-        },
-        "titus.pagac42": {
-            "rank": 133,
-            "power": 86286
-        },
-        "lio_bernhard145": {
-            "rank": 134,
-            "power": 84852
-        },
-        "lanelle134": {
-            "rank": 135,
-            "power": 82293
-        },
-        "lynwood62": {
-            "rank": 136,
-            "power": 82017
-        },
-        "richie141": {
-            "rank": 137,
-            "power": 81735
-        },
-        "rhonda144": {
-            "rank": 138,
-            "power": 80898
-        },
-        "latina.kulas83": {
-            "rank": 139,
-            "power": 80298
-        },
-        "amos_boehm147": {
-            "rank": 140,
-            "power": 77277
-        },
-        "kalyn133": {
-            "rank": 141,
-            "power": 76743
-        },
-        "addie.schoen74": {
-            "rank": 142,
-            "power": 76644
-        },
-        "annett_bechtelar135": {
-            "rank": 143,
-            "power": 74775
-        },
-        "jarred_purdy78": {
-            "rank": 144,
-            "power": 74412
-        },
-        "brooke_waelchi98": {
-            "rank": 145,
-            "power": 73428
-        },
-        "lenny69": {
-            "rank": 146,
-            "power": 66252
-        },
-        "desire93": {
-            "rank": 147,
-            "power": 63000
-        },
-        "tyron86": {
-            "rank": 148,
-            "power": 60867
-        },
-        "erik105": {
-            "rank": 149,
-            "power": 55203
-        },
-        "adela.harber113": {
-            "rank": 150,
-            "power": 53820
-        }
-    },
     "2025-W12": {
         "olin.legros0": {
             "rank": 1,
@@ -1803,6 +1201,408 @@
         "junie.streich94": {
             "rank": 150,
             "power": 51798
+        }
+    },
+    "2025-W14": {
+        "olin.legros0": {
+            "rank": 1,
+            "power": 11189679
+        },
+        "elizbeth.gerhold1": {
+            "rank": 2,
+            "power": 6691200
+        },
+        "SinRopa": {
+            "rank": 3,
+            "power": 4570304
+        },
+        "nicky.schowalter2": {
+            "rank": 4,
+            "power": 3951516
+        },
+        "gina3": {
+            "rank": 5,
+            "power": 3198660
+        },
+        "baikho": {
+            "rank": 6,
+            "power": 3005996
+        },
+        "ironblood": {
+            "rank": 7,
+            "power": 2478028
+        },
+        "kelli4": {
+            "rank": 8,
+            "power": 2143134
+        },
+        "mana5": {
+            "rank": 9,
+            "power": 2037936
+        },
+        "edmund6": {
+            "rank": 10,
+            "power": 1826265
+        },
+        "arlean.dare7": {
+            "rank": 11,
+            "power": 1651518
+        },
+        "Firedevil": {
+            "rank": 12,
+            "power": 1421597
+        },
+        "mekill": {
+            "rank": 13,
+            "power": 1274486
+        },
+        "shawnna11": {
+            "rank": 14,
+            "power": 1212249
+        },
+        "WreakingHavoc": {
+            "rank": 15,
+            "power": 1137722
+        },
+        "florene_williamson8": {
+            "rank": 16,
+            "power": 1125096
+        },
+        "nsakins": {
+            "rank": 17,
+            "power": 931028
+        },
+        "danilo12": {
+            "rank": 18,
+            "power": 877620
+        },
+        "abbey.dibbert14": {
+            "rank": 19,
+            "power": 876753
+        },
+        "brock.lehner13": {
+            "rank": 20,
+            "power": 864780
+        },
+        "joan_mueller16": {
+            "rank": 21,
+            "power": 788226
+        },
+        "cecil18": {
+            "rank": 22,
+            "power": 738369
+        },
+        "lonia_jakubowski17": {
+            "rank": 23,
+            "power": 721437
+        },
+        "dwayne22": {
+            "rank": 24,
+            "power": 621441
+        },
+        "moses.wyman20": {
+            "rank": 25,
+            "power": 621414
+        },
+        "Cri": {
+            "rank": 26,
+            "power": 613692
+        },
+        "winnie.rempel19": {
+            "rank": 27,
+            "power": 605148
+        },
+        "corey21": {
+            "rank": 28,
+            "power": 548196
+        },
+        "stefan_hills25": {
+            "rank": 29,
+            "power": 533754
+        },
+        "monica_denesik29": {
+            "rank": 30,
+            "power": 517248
+        },
+        "omer26": {
+            "rank": 31,
+            "power": 514503
+        },
+        "harrison10": {
+            "rank": 32,
+            "power": 498405
+        },
+        "romeo9": {
+            "rank": 33,
+            "power": 468885
+        },
+        "jeramy_brown30": {
+            "rank": 34,
+            "power": 447567
+        },
+        "dallas_sanford33": {
+            "rank": 35,
+            "power": 436392
+        },
+        "kia.howe24": {
+            "rank": 36,
+            "power": 426630
+        },
+        "reba_shields15": {
+            "rank": 37,
+            "power": 408366
+        },
+        "serina_bode31": {
+            "rank": 38,
+            "power": 391719
+        },
+        "greg35": {
+            "rank": 39,
+            "power": 389799
+        },
+        "stewart38": {
+            "rank": 40,
+            "power": 358932
+        },
+        "stephen27": {
+            "rank": 41,
+            "power": 356559
+        },
+        "manda40": {
+            "rank": 42,
+            "power": 328482
+        },
+        "ligia32": {
+            "rank": 43,
+            "power": 327534
+        },
+        "lanny_mante36": {
+            "rank": 44,
+            "power": 309387
+        },
+        "wallace39": {
+            "rank": 45,
+            "power": 309123
+        },
+        "jimmie.ritchie43": {
+            "rank": 46,
+            "power": 305934
+        },
+        "elenore_mante41": {
+            "rank": 47,
+            "power": 293529
+        },
+        "corazon_mosciski44": {
+            "rank": 48,
+            "power": 290124
+        },
+        "alexis_homenick47": {
+            "rank": 49,
+            "power": 276681
+        },
+        "florence_hand51": {
+            "rank": 50,
+            "power": 268035
+        },
+        "loise.powlowski": {
+            "rank": 51,
+            "power": 255537
+        },
+        "raphael46": {
+            "rank": 52,
+            "power": 253239
+        },
+        "dominick48": {
+            "rank": 53,
+            "power": 238905
+        },
+        "austin52": {
+            "rank": 54,
+            "power": 234819
+        },
+        "clara56": {
+            "rank": 55,
+            "power": 234189
+        },
+        "eleonor57": {
+            "rank": 56,
+            "power": 229491
+        },
+        "nick53": {
+            "rank": 57,
+            "power": 226011
+        },
+        "classie67": {
+            "rank": 58,
+            "power": 217104
+        },
+        "erline45": {
+            "rank": 59,
+            "power": 213033
+        },
+        "malena.shields23": {
+            "rank": 60,
+            "power": 211185
+        },
+        "liz_oconner28": {
+            "rank": 61,
+            "power": 210027
+        },
+        "betsey.steuber50": {
+            "rank": 62,
+            "power": 207864
+        },
+        "bernie64": {
+            "rank": 63,
+            "power": 202005
+        },
+        "hyman61": {
+            "rank": 64,
+            "power": 197709
+        },
+        "jeanene59": {
+            "rank": 65,
+            "power": 194556
+        },
+        "margret.yundt63": {
+            "rank": 66,
+            "power": 193605
+        },
+        "crysta55": {
+            "rank": 67,
+            "power": 193413
+        },
+        "mike79": {
+            "rank": 68,
+            "power": 190284
+        },
+        "lynell68": {
+            "rank": 69,
+            "power": 189051
+        },
+        "magan.witting73": {
+            "rank": 70,
+            "power": 186678
+        },
+        "meridith71": {
+            "rank": 71,
+            "power": 183057
+        },
+        "lizzette66": {
+            "rank": 72,
+            "power": 182613
+        },
+        "drew.rempel65": {
+            "rank": 73,
+            "power": 182166
+        },
+        "earlean80": {
+            "rank": 74,
+            "power": 181884
+        },
+        "nando_ernser82": {
+            "rank": 75,
+            "power": 176664
+        },
+        "asa60": {
+            "rank": 76,
+            "power": 172569
+        },
+        "Severance": {
+            "rank": 77,
+            "power": 163660
+        },
+        "robin.bauch88": {
+            "rank": 78,
+            "power": 159954
+        },
+        "dona75": {
+            "rank": 79,
+            "power": 155583
+        },
+        "hung_corwin37": {
+            "rank": 80,
+            "power": 150282
+        },
+        "stacy_trantow92": {
+            "rank": 81,
+            "power": 148515
+        },
+        "anita.kautzer76": {
+            "rank": 82,
+            "power": 148425
+        },
+        "glenn.berge91": {
+            "rank": 83,
+            "power": 146967
+        },
+        "antonina_hane72": {
+            "rank": 84,
+            "power": 143550
+        },
+        "dalton87": {
+            "rank": 85,
+            "power": 141933
+        },
+        "milton.mosciski70": {
+            "rank": 86,
+            "power": 135561
+        },
+        "samuel34": {
+            "rank": 87,
+            "power": 135285
+        },
+        "van_schiller84": {
+            "rank": 88,
+            "power": 134937
+        },
+        "lorine90": {
+            "rank": 89,
+            "power": 131916
+        },
+        "wai_bechtelar85": {
+            "rank": 90,
+            "power": 129714
+        },
+        "emmanuel.walker95": {
+            "rank": 91,
+            "power": 129012
+        },
+        "cory.torphy101": {
+            "rank": 92,
+            "power": 127080
+        },
+        "dick_beahan96": {
+            "rank": 93,
+            "power": 124137
+        },
+        "donald109": {
+            "rank": 94,
+            "power": 123618
+        },
+        "geoffrey114": {
+            "rank": 95,
+            "power": 122457
+        },
+        "eli81": {
+            "rank": 96,
+            "power": 121041
+        },
+        "jerald.kutch112": {
+            "rank": 97,
+            "power": 119325
+        },
+        "cassandra99": {
+            "rank": 98,
+            "power": 117537
+        },
+        "brandi_barton103": {
+            "rank": 99,
+            "power": 117306
+        },
+        "nelson.kemmer108": {
+            "rank": 100,
+            "power": 115800
         }
     }
 }
