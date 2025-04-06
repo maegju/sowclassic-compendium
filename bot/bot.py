@@ -74,6 +74,9 @@ def commit_leaderboard_log():
 
 def scrape_leaderboard():
     """Scrapes the leaderboard using Selenium."""
+
+    print("Init scrape_leaderboard()")
+
     url = "https://sowclassic.com/toplists"
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
@@ -195,6 +198,9 @@ def compute_leaderboard_changes(new_leaderboard, old_leaderboard):
 # 📌 Create GitHub Discussion
 def create_github_discussion(leaderboard):
     """Posts the leaderboard as a GitHub Discussion using the GitHub App."""
+
+    print("Init create_github_discussion(leaderboard)")
+
     GITHUB_TOKEN = get_installation_token()  # Get the app authentication token
 
     # Get current date details
@@ -283,6 +289,9 @@ def get_repository_id():
         raise Exception(f"❌ Failed to fetch repository ID: {response.json()}")
 
 def main():
+
+    print("Init main()")
+
     leaderboard = scrape_leaderboard()
     if leaderboard:
         create_github_discussion(leaderboard)
