@@ -1,5 +1,11 @@
 # sowclassic-compendium
 
+[![GitHub stars](https://img.shields.io/github/stars/maegju/sowclassic-compendium.svg?style=flat-square)](https://github.com/maegju/sowclassic-compendium/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/maegju/sowclassic-compendium.svg?style=flat-square)](https://github.com/maegju/sowclassic-compendium/network)
+[![GitHub issues](https://img.shields.io/github/issues/maegju/sowclassic-compendium.svg?style=flat-square)](https://github.com/maegju/sowclassic-compendium/issues)
+[![GitHub license](https://img.shields.io/github/license/maegju/sowclassic-compendium.svg?style=flat-square)](https://github.com/maegju/sowclassic-compendium/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/maegju/sowclassic-compendium.svg?style=flat-square)](https://github.com/maegju/sowclassic-compendium/commits)
+
 Welcome to the SoW Classic compendium!
 
 🚀 **An automated bot that scrapes the weekly leaderboard from [Secrets of War Classic](https://sowclassic.com) and posts it as a GitHub Discussion.**  
