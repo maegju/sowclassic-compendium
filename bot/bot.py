@@ -241,7 +241,7 @@ This leaderboard tracks player rankings and power changes from the first recorde
 """
 
     # 📝 Create Markdown Table
-    table_header = "| 🏆 | Name | Rank Change | Member Since |\n|----|------|--------|-------------|-------------|-------------|\n"
+    table_header = "| 🏆 | Name | Rank Change | Member Since |\n|----|------|-------------|-------------|\n"
     table_rows = "\n".join([f"| {rank} | {player} | {rank_change} | {created} |" for rank, player, power, rank_change, power_change, created in updated_leaderboard])
     discussion_body = f"{preface}\n{table_header}{table_rows}"
 
