@@ -97,8 +97,10 @@ def scrape_leaderboard():
                 rank = columns[0].text.strip()
                 rank = rank_mapping.get(rank, rank)  # Convert emoji rank if applicable
                 player = columns[1].text.strip()
-                power = columns[2].text.strip()
-                created = convert_relative_to_absolute(columns[3].text.strip())
+                # power = columns[2].text.strip()
+                power = 0  # Power column no longer available
+                # created = convert_relative_to_absolute(columns[3].text.strip())
+                created = convert_relative_to_absolute(columns[2].text.strip())
 
                 leaderboard.append((rank, player, power, created))
 
@@ -172,7 +174,7 @@ def compute_leaderboard_changes(new_leaderboard, old_leaderboard):
     for rank, player, power, created in new_leaderboard:
         prev_data = old_leaderboard.get(player, {})
         prev_rank = prev_data.get("rank", None)
-        prev_power = prev_data.get("power", None)
+        # prev_power = prev_data.get("power", None)
 
         # Handle unlisted players
         if prev_rank is None:
@@ -182,8 +184,9 @@ def compute_leaderboard_changes(new_leaderboard, old_leaderboard):
             rank_diff = prev_rank - int(rank)
             rank_change = f"+{rank_diff}" if rank_diff > 0 else f"{rank_diff}" if rank_diff < 0 else "-"
 
-            power_diff = int(power.replace(",", "")) - prev_power
-            power_change = f"+{power_diff:,}" if power_diff > 0 else f"{power_diff:,}" if power_diff < 0 else "-"
+            # power_diff = int(power.replace(",", "")) - prev_power
+            # power_change = f"+{power_diff:,}" if power_diff > 0 else f"{power_diff:,}" if power_diff < 0 else "-"
+            power_change = "N/A"
 
         updated_leaderboard.append((rank, player, power, rank_change, power_change, created))
 
@@ -229,8 +232,8 @@ This leaderboard tracks player rankings and power changes from the first recorde
 """
 
     # 📝 Create Markdown Table
-    table_header = "| 🏆 | Name | Power | Rank Change | Power Change | Member Since |\n|----|------|--------|-------------|-------------|-------------|\n"
-    table_rows = "\n".join([f"| {rank} | {player} | {power} | {rank_change} | {power_change} | {created} |" for rank, player, power, rank_change, power_change, created in updated_leaderboard])
+    table_header = "| 🏆 | Name | Rank Change | Member Since |\n|----|------|--------|-------------|-------------|-------------|\n"
+    table_rows = "\n".join([f"| {rank} | {player} | {rank_change} | {created} |" for rank, player, power, rank_change, power_change, created in updated_leaderboard])
     discussion_body = f"{preface}\n{table_header}{table_rows}"
 
     query = """
