@@ -96,7 +96,7 @@ def scrape_leaderboard():
         leaderboard = []
         for row in rows:
             columns = row.find_elements(By.TAG_NAME, "td")
-            if len(columns) >= 4:
+            if len(columns) == 3:
                 rank = columns[0].text.strip()
                 rank = rank_mapping.get(rank, rank)  # Convert emoji rank if applicable
                 player = columns[1].text.strip()
@@ -106,6 +106,9 @@ def scrape_leaderboard():
                 created = convert_relative_to_absolute(columns[2].text.strip())
 
                 leaderboard.append((rank, player, power, created))
+
+            else:
+                raise Exception("Mismatch expected table column count")
 
         driver.quit()
         return leaderboard
