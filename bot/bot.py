@@ -101,7 +101,7 @@ def scrape_leaderboard():
                 rank = rank_mapping.get(rank, rank)  # Convert emoji rank if applicable
                 player = columns[1].text.strip()
                 # power = columns[2].text.strip()
-                power = 0  # Power column no longer available
+                power = "0"  # Power column no longer available
                 # created = convert_relative_to_absolute(columns[3].text.strip())
                 created = convert_relative_to_absolute(columns[2].text.strip())
 
